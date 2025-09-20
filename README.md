@@ -1,14 +1,14 @@
  
-# The Anneliese Michel Case â€” A Historical Examination
+# The Anneliese Michel Case ” A Historical Examination "
 
 A content-rich, interactive website examining the case of **Anneliese Michel (1952â€“1976)**.  
 It presents a balanced view across **religion, medicine, law, ethics, and media portrayals**, supported by primary and secondary sources.
 
-ðŸ”— **Live Site**: [webamc.netlify.app](https://webamc.netlify.app/)
+— **Live Site**: [webamc.netlify.app](https://webamc.netlify.app/)
 
 ---
 
-## âœ¨ Features
+## ¨ Features
 
 - **Interactive navigation** with smooth transitions between sections.  
 - **Detailed timeline** (1952â€“1978) with images, sources, and stories.  
@@ -22,7 +22,7 @@ It presents a balanced view across **religion, medicine, law, ethics, and media 
 
 ---
 
-## ðŸ› ï¸ Tech Stack
+## › ï¸ Tech Stack
 
 - **Frontend**: HTML5, CSS3, JavaScript (Vanilla JS)  
 - **Styling**: CSS Grid, Flexbox, CSS Variables (dark/light theme system)  
@@ -31,7 +31,7 @@ It presents a balanced view across **religion, medicine, law, ethics, and media 
 
 ---
 
-## ðŸ“‚ Project Structure
+##“‚ Project Structure
 
 ```
 â”œâ”€â”€ index.html        # Main page with all sections
@@ -43,7 +43,7 @@ It presents a balanced view across **religion, medicine, law, ethics, and media 
 
 ---
 
-## ðŸš€ Getting Started
+##  Getting Started
 
 ### Run locally
 1. Clone the repo:
@@ -58,7 +58,7 @@ It presents a balanced view across **religion, medicine, law, ethics, and media 
 
 ---
 
-## ðŸ“– Content Sections
+## “– Content Sections
 
 - **Home** â†’ Hero section + case overview.  
 - **Timeline** â†’ Chronological events (1952â€“1978).  
@@ -69,7 +69,7 @@ It presents a balanced view across **religion, medicine, law, ethics, and media 
 
 ---
 
-## ðŸ“ˆ Future Improvements
+## “ˆ Future Improvements
 
 - Add inline citations/footnotes for better academic credibility.  
 - Optimize images + add lazy loading.  
@@ -79,7 +79,7 @@ It presents a balanced view across **religion, medicine, law, ethics, and media 
 
 ---
 
-## ðŸ“œ License
+## “œ License
 
 This project is open source. You may use, adapt, and share the code with attribution.  
 Content references belong to their respective archives and publishers. 
@@ -87,8 +87,8 @@ Content references belong to their respective archives and publishers.
 
 ---
 
-## ðŸ‘¤ Author
+## ‘¤ Author
 
 - **Your Name* Adarsh Pandey*  
-- ðŸŒ [Live Website](https://webamc.netlify.app/)  
-- ðŸ“§ Contact available via site form  
+-  [Live Website](https://webamc.netlify.app/)  
+-  Contact available via adarshpan345@gmail.com 
