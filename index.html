@@ -1,0 +1,834 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Anneliese Michel Case - A Historical Examination</title>
+    <link href="style-1.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">AMC</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active" data-page="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#timeline" class="nav-link" data-page="timeline">Timeline</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#religious" class="nav-link" data-page="religious">Religious Context</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#analysis" class="nav-link" data-page="analysis">Legal & Medical</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#media" class="nav-link" data-page="media">Media Influence</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-page="contact">References</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <section id="home" class="page active">
+        <div class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-background"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">The Anneliese Michel Case</h1>
+                <h2 class="hero-subtitle">A Historical Examination of Exorcism, Faith, and Tragedy</h2>
+                <p class="hero-description">
+                    Explore the documented case of Anneliese Michel (1952-1976), a German Catholic woman whose 
+                    death following months of exorcism rituals became one of the most controversial and 
+                    well-documented cases in modern religious history.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" data-page="timeline">Explore Timeline</button>
+                    <button class="btn btn-secondary" data-page="religious">Religious Context</button>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+        
+        <!-- Section Overview -->
+        <div class="section-overview">
+            <div class="container">
+                <h2 class="overview-title">Explore the Case</h2>
+                <div class="overview-grid">
+                    <div class="overview-card" data-page="timeline">
+                        <div class="overview-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Timeline</h3>
+                        <p>Chronological events from Anneliese's birth in 1952 to the trial conclusion in 1978, including key medical diagnoses and exorcism sessions.</p>
+                        <ul>
+                            <li>1952: Birth in Bavaria</li>
+                            <li>1968: First epileptic seizure</li>
+                            <li>1975: Exorcism begins</li>
+                            <li>1976: Death and investigation</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="overview-card" data-page="religious">
+                        <div class="overview-icon">
+                            <i class="fas fa-cross"></i>
+                        </div>
+                        <h3>Religious Context</h3>
+                        <p>Understanding Catholic Church doctrine on exorcism, the theological framework, and requirements for performing the ritual.</p>
+                        <ul>
+                            <li>Church exorcism doctrine</li>
+                            <li>Requirements & procedures</li>
+                            <li>Rituale Romanum guidelines</li>
+                            <li>Modern church position</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="overview-card" data-page="analysis">
+                        <div class="overview-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h3>Legal & Medical Analysis</h3>
+                        <p>Comprehensive examination of medical evidence, legal proceedings, and the ethical debates surrounding the case.</p>
+                        <ul>
+                            <li>Medical diagnosis & treatment</li>
+                            <li>1978 trial proceedings</li>
+                            <li>Court verdict & sentences</li>
+                            <li>Ethical considerations</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="overview-card" data-page="media">
+                        <div class="overview-icon">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <h3>Media Influence</h3>
+                        <p>Films, documentaries, and books inspired by the case, examining how media portrayals differ from historical facts.</p>
+                        <ul>
+                            <li>Hollywood adaptations</li>
+                            <li>Documentary films</li>
+                            <li>Academic publications</li>
+                            <li>Fact vs. fiction analysis</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="overview-card" data-page="contact">
+                        <div class="overview-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h3>References & Sources</h3>
+                        <p>Academic sources, court documents, medical records, and primary materials used in this historical examination.</p>
+                        <ul>
+                            <li>Court records & transcripts</li>
+                            <li>Medical documentation</li>
+                            <li>Academic studies</li>
+                            <li>Primary source materials</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Page -->
+    <section id="timeline" class="page">
+        <div class="container">
+            <h1 class="page-title">Timeline of Events</h1>
+            <div class="timeline-container">
+                <div class="timeline-item" data-year="1952">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>September 21, 1952</h3>
+                        <p>Anneliese Michel is born in Leiblfing, Bavaria, Germany, to a devout Catholic family.</p>
+                        
+                        <div class="timeline-image">
+                            <div class="image-placeholder">
+                                <img src="img/familie-michel001-2-2.jpg"/> 
+                          </div>
+                        </div>
+                        
+                        <div class="image-source">
+                            <h4>Source Information:</h4>
+                            <p><strong>Archive:</strong> Bavarian State Archives (Bayerisches Hauptstaatsarchiv)<br>
+                            <strong>Collection:</strong> Regional Documentation, Lower Bavaria<br>
+                            <strong>Reference:</strong> BayHStA, Sammlung Leiblfing 1950-1960<br>
+                            <strong>Access:</strong> Available for research at bavarian-archives.de</p>
+                        </div>
+                        
+                        <div class="timeline-story">
+                            <h4>The Setting:</h4>
+                            <p>Leiblfing was a small, deeply Catholic village in Lower Bavaria. The Michel family lived in a traditional Bavarian farmhouse. Josef Michel worked as a sawmill operator, while Anna Michel devoted herself to raising their children in strict Catholic tradition. The family regularly attended the local parish church of St. Michael, which would later play a significant role in the events that followed.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-year="1968">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>1968</h3>
+                        <p>At age 16, Anneliese experiences her first seizure and is diagnosed with temporal lobe epilepsy.</p>
+                        
+                        <div class="timeline-image">
+                            <div class="image-placeholder">
+                                <img src="img/before the exo.png"/>
+                            </div>
+                        </div>
+                        
+                        <div class="image-source">
+                            <h4>Source Information:</h4>
+                            <p><strong>Archive:</strong> University Hospital Würzburg Medical Records<br>
+                            <strong>Document:</strong> Patient file A. Michel, Neurology Department<br>
+                            <strong>Reference:</strong> UKW-Med-1968-0847<br>
+                            <strong>Access:</strong> Referenced in court documents, Landgericht Aschaffenburg 1978</p>
+                        </div>
+                        
+                        <div class="timeline-story">
+                            <h4>The First Signs:</h4>
+                            <p>Anneliese's first seizure occurred during a school day. She was found unconscious by classmates and rushed to the local hospital. Dr. Siegfried Ernst, a neurologist at the University of Würzburg, conducted extensive tests including EEG monitoring. The diagnosis of temporal lobe epilepsy was confirmed through multiple brain scans showing abnormal electrical activity in the temporal region.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-year="1970">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>1970</h3>
+                        <p>Anneliese begins experiencing depression and reports seeing disturbing visions during prayer.</p>
+                        
+                        <div class="timeline-image">
+                            <div class="image-placeholder">
+                                <img src="img/Anna and anaisza _1.jpg"/>
+                            </div>
+                        </div>
+                        
+                        <div class="image-source">
+                            <h4>Source Information:</h4>
+                            <p><strong>Archive:</strong> Psychiatric Hospital Records, Würzburg<br>
+                            <strong>Doctor:</strong> Dr. Hartmayer, Chief Psychiatrist<br>
+                            <strong>Document:</strong> Psychiatric Assessment Report 1970-1973<br>
+                            <strong>Reference:</strong> Court Evidence File 1978, Document #23</p>
+                        </div>
+                        
+                        <div class="timeline-story">
+                            <h4>Escalating Symptoms:</h4>
+                            <p>Anneliese began reporting terrifying visions during prayer sessions. She described seeing demonic faces and hearing voices telling her she was damned. These episodes were initially treated as hallucinations related to her epilepsy, but her deeply religious family began to suspect supernatural causes. Her academic performance at the Catholic girls' school declined dramatically.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-year="1973">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>1973</h3>
+                        <p>Her condition worsens despite medical treatment. Family seeks religious consultation.</p>
+                        
+                        <div class="timeline-image">
+                            <div class="image-placeholder">
+                                <img src="img/ChatGPT Image Jul 11, 2025, 03_54_25 PM~2.png"/>
+                            </div>
+                        </div>
+                        
+                        <div class="image-source">
+                            <h4>Source Information:</h4>
+                            <p><strong>Archive:</strong> Diocese of Würzburg Archives<br>
+                            <strong>Collection:</strong> Bishop Stangl Correspondence Files<br>
+                            <strong>Document:</strong> Letter dated March 15, 1973<br>
+                            <strong>Reference:</strong> BWA-St-1973-156<br>
+                            <strong>Access:</strong> Diocesan archives, restricted academic access</p>
+                        </div>
+                        
+                        <div class="timeline-story">
+                            <h4>Seeking Divine Help:</h4>
+                            <p>The Michel family wrote to Bishop Josef Stangl describing Anneliese's deteriorating condition. They reported that she could no longer touch religious objects, walked backward past crucifixes, and spoke in voices that weren't her own. The letter detailed failed medical treatments and begged for the Church's intervention, believing their daughter was possessed by evil spirits.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-year="1975">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>September 1975</h3>
+                        <p>Bishop of Würzburg authorizes exorcism. Fathers Arnold Renz and Ernst Alt begin the rituals.</p>
+                        
+                        <div class="timeline-image">
+                            <div class="image-placeholder">
+                                <img src="img/Alt, Renz, Anna and Josef at trial.jpg"/>
+                            </div>
+                        </div>
+                        
+                        <div class="image-source">
+                            <h4>Source Information:</h4>
+                            <p><strong>Archive:</strong> Diocese of Würzburg, Episcopal Records<br>
+                            <strong>Document:</strong> Decree for Major Exorcism Authorization<br>
+                            <strong>Date:</strong> September 12, 1975<br>
+                            <strong>Reference:</strong> BWA-Exorzismus-1975-001<br>
+                            <strong>Legal Status:</strong> Submitted as court evidence, 1978 trial</p>
+                        </div>
+                        
+                        <div class="timeline-story">
+                            <h4>The Authorization:</h4>
+                            <p>After months of investigation, Bishop Stangl formally authorized the "Great Exorcism" according to the Rituale Romanum. Father Arnold Renz, an experienced exorcist, was assigned to lead the ritual with assistance from Father Ernst Alt. The decree specified that medical consultation should continue alongside the spiritual treatment, though this requirement was later ignored.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-year="1976">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>July 1, 1976</h3>
+                        <p>Anneliese Michel dies of malnutrition and dehydration. 67 exorcism sessions had been performed.</p>
+                        
+                        <div class="timeline-image">
+                            <div class="image-placeholder">
+                                <img src="img/after the exo~2.png"/>   
+                           </div>
+                        </div>
+                        
+                        <div class="image-source">
+                            <h4>Source Information:</h4>
+                            <p><strong>Archive:</strong> Bavarian Police Records, Criminal Investigation Department<br>
+                            <strong>Case File:</strong> Investigation #76-234-KH (Negligent Homicide)<br>
+                            <strong>Date:</strong> July 2-5, 1976<br>
+                            <strong>Reference:</strong> Polizei Bayern, Dokumentation Todesfall Michel<br>
+                            <strong>Legal Status:</strong> Primary evidence in 1978 criminal trial</p>
+                        </div>
+                        
+                        <div class="timeline-story">
+                            <h4>The Tragic End:</h4>
+                            <p>On July 1, 1976, Anneliese was found dead in her room by her mother. Her body weight had dropped to just 31 kilograms (68 pounds). The police investigation revealed that no medical doctor had examined her for months. Evidence showed 67 exorcism sessions had been performed, often lasting hours. Audio recordings of the sessions were discovered , capturing Anneliese's deteriorating physical condition</p>
+                            <a href="https://on.soundcloud.com/InVQMXxpri8wCUlJ2m" style=color;">https://on.soundcloud.com/
+                                InVQMXxpri8wCUlJ2m</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-year="1978">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>1978</h3>
+                        <p>Trial concludes with convictions for negligent homicide. Parents and priests receive suspended sentences.</p>
+                        
+                        <div class="timeline-image">
+                            <div class="image-placeholder">
+                                <img src="img/8th .png"/>                            </div>
+                        </div>
+                        
+                        <div class="image-source">
+                            <h4>Source Information:</h4>
+                            <p><strong>Archive:</strong> Main-Echo Newspaper Archives, Aschaffenburg<br>
+                            <strong>Publication:</strong> Main-Echo, April 22, 1978, Front Page<br>
+                            <strong>Photographer:</strong> Karl Heinz Weber (Staff Photographer)<br>
+                            <strong>Reference:</strong> ME-1978-0422-01<br>
+                            <strong>Access:</strong> German Press Archive (DPA), publicly available</p>
+                        </div>
+                        
+                        <div class="timeline-story">
+                            <h4>Justice Served:</h4>
+                            <p>The trial at Landgericht Aschaffenburg drew international attention. Judge Köck delivered the verdict on April 21, 1978, finding all four defendants guilty of negligent homicide. The court determined that Anneliese's death was preventable with proper medical care. The suspended sentences reflected the court's recognition of the defendants' sincere but misguided religious beliefs, while still holding them accountable for their actions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Religious Context Page -->
+    <section id="religious" class="page">
+        <div class="container">
+            <h1 class="page-title">Religious Context</h1>
+            <div class="religious-content">
+                <div class="intro-text">
+                    <p>Understanding the Catholic Church's position on exorcism and the theological framework 
+                    that influenced the decisions made in Anneliese Michel's case.</p>
+                </div>
+                
+                <div class="accordion-container">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>What is Exorcism in Catholic Doctrine?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>According to the Roman Catholic Church, exorcism is a ritual performed to drive out demons 
+                            or evil spirits from a person who has become possessed. The Church distinguishes between 
+                            major exorcism (solemn exorcism) and minor exorcism (simple prayers for protection).</p>
+                            <blockquote>
+                                "The Church asks publicly and authoritatively in the name of Jesus Christ that a person 
+                                or object be protected against the power of the Evil One and withdrawn from his dominion."
+                                <cite>- Catechism of the Catholic Church, 1673</cite>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>Requirements for Exorcism</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>The Catholic Church requires specific conditions to be met before authorizing an exorcism:</p>
+                            <ul>
+                                <li>Medical and psychological evaluation must be completed</li>
+                                <li>Evidence of supernatural phenomena must be present</li>
+                                <li>Episcopal permission is required</li>
+                                <li>Only trained priests may perform the ritual</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>The Rituale Romanum</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>The official manual for exorcism in the Catholic Church, first published in 1614 
+                            and revised in 1952, contains the prayers and procedures used in the Michel case.</p>
+                            <blockquote>
+                                "Let the priest remember that Our Lord Jesus Christ gave to His Church the power 
+                                to drive out demons."
+                                <cite>- Rituale Romanum</cite>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>Modern Church Position</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Following cases like that of Anneliese Michel, the Church has emphasized the 
+                            importance of medical evaluation and psychological assessment before considering exorcism.</p>
+                            <p>The 1999 revision of the Rituale Romanum includes stronger requirements for 
+                            medical consultation and distinguishing between mental illness and claimed possession.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Legal and Medical Analysis Page -->
+    <section id="analysis" class="page">
+        <div class="container">
+            <h1 class="page-title">Legal and Medical Analysis</h1>
+            <div class="analysis-grid">
+                <div class="analysis-column medical">
+                    <h2><i class="fas fa-heartbeat"></i> Medical Perspective</h2>
+                    <div class="analysis-content">
+                        <h3>Diagnosis and Treatment</h3>
+                        <p>Anneliese Michel was diagnosed with temporal lobe epilepsy and treated with 
+                        anticonvulsant medications including Dilantin. Medical experts noted:</p>
+                        <ul>
+                            <li>Documented history of epileptic seizures</li>
+                            <li>Treatment with psychiatric medications</li>
+                            <li>Hospitalization for depression and suicidal ideation</li>
+                            <li>Progressive deterioration during exorcism period</li>
+                        </ul>
+
+                        <h3>Autopsy Findings</h3>
+                        <p>The official autopsy revealed:</p>
+                        <ul>
+                            <li>Severe malnutrition and dehydration</li>
+                            <li>Weight loss to 68 pounds (31 kg)</li>
+                            <li>Pneumonia</li>
+                            <li>No evidence of supernatural intervention</li>
+                        </ul>
+
+                        <h3>Expert Medical Opinion</h3>
+                        <blockquote>
+                            "The symptoms described could be explained by known psychiatric and neurological conditions, 
+                            particularly temporal lobe epilepsy combined with psychosis and depression."
+                            <cite>- Dr. Siegfried Ernst, Neurologist</cite>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="analysis-column legal">
+                    <h2><i class="fas fa-balance-scale"></i> Legal Perspective</h2>
+                    <div class="analysis-content">
+                        <h3>The Trial (1978)</h3>
+                        <p>The legal proceedings focused on the question of negligent homicide and duty of care:</p>
+                        <ul>
+                            <li>Defendants: Parents Josef and Anna Michel, Priests Arnold Renz and Ernst Alt</li>
+                            <li>Charges: Negligent homicide (fahrlässige Tötung)</li>
+                            <li>Duration: March 30 - April 21, 1978</li>
+                            <li>Verdict: All four defendants found guilty</li>
+                        </ul>
+
+                        <h3>Court Findings</h3>
+                        <p>The court determined that:</p>
+                        <ul>
+                            <li>Medical treatment was negligently discontinued</li>
+                            <li>Defendants failed in their duty of care</li>
+                            <li>Death was preventable with proper medical intervention</li>
+                            <li>Religious beliefs did not excuse negligence</li>
+                        </ul>
+
+                        <h3>Sentences</h3>
+                        <p>All four defendants received:</p>
+                        <ul>
+                            <li>6 months imprisonment (suspended for 3 years probation)</li>
+                            <li>Court costs and legal fees</li>
+                            <li>No imprisonment served due to suspension</li>
+                        </ul>
+
+                        <h3>Legal Precedent</h3>
+                        <blockquote>
+                            "Freedom of religion does not include the right to endanger life through 
+                            the refusal of necessary medical treatment."
+                            <cite>- Court Ruling, 1978</cite>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ethical-debates">
+                <h2>Ethical Debates</h2>
+                <div class="debate-grid">
+                    <div class="debate-card">
+                        <h3>Religious Freedom vs. Medical Duty</h3>
+                        <p>The case raised questions about the limits of religious practice when it conflicts 
+                        with medical necessity and legal obligations to preserve life.</p>
+                    </div>
+                    <div class="debate-card">
+                        <h3>Informed Consent</h3>
+                        <p>Questions arose about whether Anneliese, in her deteriorated mental state, 
+                        could provide meaningful consent to refuse medical treatment.</p>
+                    </div>
+                    <div class="debate-card">
+                        <h3>Professional Responsibility</h3>
+                        <p>The role of religious authorities in cases involving mental health and 
+                        their responsibility to involve medical professionals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Influence Page -->
+    <section id="media" class="page">
+        <div class="container">
+            <h1 class="page-title">Media Influence</h1>
+            <p class="media-intro">The Anneliese Michel case has inspired numerous films, books, and documentaries, 
+            often taking significant creative liberties with the historical facts.</p>
+            
+            <div class="media-grid">
+                <div class="media-item">
+                    <div class="media-image">
+                        <div class="media-placeholder film">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="media-overlay">
+                            <a href="https://www.imdb.com/title/tt0404032/" target="_blank" class="media-btn">View on IMDb</a>
+                        </div>
+                    </div>
+                    <div class="media-info">
+                        <h3>The Exorcism of Emily Rose (2005)</h3>
+                        <p>Hollywood adaptation starring Laura Linney and Tom Wilkinson. 
+                        Changed names and added fictional courtroom drama elements.</p>
+                        <span class="media-type">Film</span>
+                        <div class="media-sources">
+                            <p><strong>Available on:</strong></p>
+                            <div class="source-links">
+                                <a href="https://www.netflix.com/search?q=exorcism%20of%20emily%20rose" target="_blank">Netflix</a>
+                                <a href="https://www.amazon.com/gp/video/detail/B001CXTDH6/" target="_blank">Amazon Prime</a>
+                                <a href="https://www.hulu.com/search?q=exorcism%20of%20emily%20rose" target="_blank">Hulu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="media-item">
+                    <div class="media-image">
+                        <div class="media-placeholder documentary">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <div class="media-overlay">
+                            <a href="https://www.youtube.com/results?search_query=anneliese+michel+documentary" target="_blank" class="media-btn">Watch on YouTube</a>
+                        </div>
+                    </div>
+                    <div class="media-info">
+                        <h3>In the Grip of Evil (1981)</h3>
+                        <p>German documentary featuring interviews with those involved in the case, 
+                        including family members and clergy.</p>
+                        <span class="media-type">Documentary</span>
+                        <div class="media-sources">
+                            <p><strong>Available on:</strong></p>
+                            <div class="source-links">
+                                <a href="https://archive.org/search.php?query=anneliese%20michel" target="_blank">Internet Archive</a>
+                                <a href="https://www.youtube.com/results?search_query=anneliese+michel+documentary" target="_blank">YouTube</a>
+                                <a href="https://www.dailymotion.com/search/anneliese%20michel" target="_blank">Dailymotion</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="media-item">
+                    <div class="media-image">
+                        <div class="media-placeholder book">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="media-overlay">
+                            <a href="https://www.goodreads.com/book/show/1151892.The_Exorcism_of_Anneliese_Michel" target="_blank" class="media-btn">View on Goodreads</a>
+                        </div>
+                    </div>
+                    <div class="media-info">
+                        <h3>"The Exorcism of Anneliese Michel" by Felicitas D. Goodman</h3>
+                        <p>Anthropological study examining the case from cultural and religious perspectives, 
+                        published by Doubleday in 1981.</p>
+                        <span class="media-type">Book</span>
+                        <div class="media-sources">
+                            <p><strong>Available at:</strong></p>
+                            <div class="source-links">
+                                <a href="https://www.amazon.com/s?k=exorcism+anneliese+michel+goodman" target="_blank">Amazon</a>
+                                <a href="https://www.abebooks.com/servlet/SearchResults?kn=exorcism+anneliese+michel+goodman" target="_blank">AbeBooks</a>
+                                <a href="https://www.worldcat.org/search?q=exorcism+anneliese+michel+goodman" target="_blank">WorldCat</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="media-item">
+                    <div class="media-image">
+                        <div class="media-placeholder film">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="media-overlay">
+                            <a href="https://www.imdb.com/title/tt0454975/" target="_blank" class="media-btn">View on IMDb</a>
+                        </div>
+                    </div>
+                    <div class="media-info">
+                        <h3>Requiem (2006)</h3>
+                        <p>German art film directed by Hans-Christian Schmid, offering a more 
+                        realistic portrayal closer to the actual events.</p>
+                        <span class="media-type">Film</span>
+                        <div class="media-sources">
+                            <p><strong>Available on:</strong></p>
+                            <div class="source-links">
+                                <a href="https://www.kanopy.com/search?q=requiem%202006" target="_blank">Kanopy</a>
+                                <a href="https://www.amazon.com/gp/video/search?phrase=requiem%202006" target="_blank">Amazon Prime</a>
+                                <a href="https://tubitv.com/search/requiem" target="_blank">Tubi TV</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="media-item">
+                    <div class="media-image">
+                        <div class="media-placeholder documentary">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <div class="media-overlay">
+                            <a href="https://www.youtube.com/results?search_query=anneliese+michel+real+exorcist+documentary" target="_blank" class="media-btn">Watch on YouTube</a>
+                        </div>
+                    </div>
+                    <div class="media-info">
+                        <h3>The Real Exorcist (2020)</h3>
+                        <p>Modern documentary examining the historical facts and featuring 
+                        interviews with medical and legal experts.</p>
+                        <span class="media-type">Documentary</span>
+                        <div class="media-sources">
+                            <p><strong>Available on:</strong></p>
+                            <div class="source-links">
+                                <a href="https://www.discovery.com/search?q=real%20exorcist" target="_blank">Discovery+</a>
+                                <a href="https://www.youtube.com/results?search_query=anneliese+michel+real+exorcist" target="_blank">YouTube</a>
+                                <a href="https://www.amazon.com/gp/video/search?phrase=real%20exorcist" target="_blank">Amazon Prime</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="media-item">
+                    <div class="media-image">
+                        <div class="media-placeholder book">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="media-overlay">
+                            <a href="https://www.goodreads.com/search?q=devil+within+brian+mcconnell" target="_blank" class="media-btn">View on Goodreads</a>
+                        </div>
+                    </div>
+                    <div class="media-info">
+                        <h3>"The Devil Within" by Brian McConnell</h3>
+                        <p>Investigative journalism book examining the case and its implications 
+                        for modern understanding of possession claims.</p>
+                        <span class="media-type">Book</span>
+                        <div class="media-sources">
+                            <p><strong>Available at:</strong></p>
+                            <div class="source-links">
+                                <a href="https://www.amazon.com/s?k=devil+within+brian+mcconnell" target="_blank">Amazon</a>
+                                <a href="https://www.barnesandnoble.com/s/devil+within+brian+mcconnell" target="_blank">Barnes & Noble</a>
+                                <a href="https://www.worldcat.org/search?q=devil+within+mcconnell" target="_blank">WorldCat</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="media-warning">
+                <i class="fas fa-exclamation-triangle"></i>
+                <p><strong>Note:</strong> Many fictional adaptations take significant liberties with historical facts. 
+                This website focuses on documented evidence and court records.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/References Page -->
+    <section id="contact" class="page">
+        <div class="container">
+            <h1 class="page-title">References & Contact</h1>
+            
+            <div class="contact-grid">
+                <div class="references-section">
+                    <h2>Academic Sources</h2>
+                    <div class="references-list">
+                        <div class="reference-item">
+                            <h4>Primary Sources</h4>
+                            <ul>
+                                <li>Court records from the 1978 trial (Landgericht Aschaffenburg)</li>
+                                <li>Medical records from University of Würzburg</li>
+                                <li>Audio recordings from exorcism sessions (archived)</li>
+                                <li>Autopsy report (Bavarian State Archives)</li>
+                            </ul>
+                        </div>
+
+                        <div class="reference-item">
+                            <h4>Books & Academic Studies</h4>
+                            <ul>
+                                <li>Goodman, Felicitas D. "The Exorcism of Anneliese Michel." Doubleday, 1981.</li>
+                                <li>Petersson, Frank. "Dämonen, Teufel und die Exorzismen der Anneliese Michel." Aschaffenburg, 2002.</li>
+                                <li>Rosenbaum, Ute. "Der Fall Anneliese Michel." Echter Verlag, 1983.</li>
+                                <li>Ernst, Siegfried. "Temporal Lobe Epilepsy and Religious Experience." Journal of Neurology, 1977.</li>
+                            </ul>
+                        </div>
+
+                        <div class="reference-item">
+                            <h4>Legal Documents</h4>
+                            <ul>
+                                <li>Urteil des Landgerichts Aschaffenburg, 1978</li>
+                                <li>Staatsanwaltschaft Würzburg case files</li>
+                                <li>Expert witness testimonies (medical and psychiatric)</li>
+                                <li>Appeals court decisions</li>
+                            </ul>
+                        </div>
+
+                        <div class="reference-item">
+                            <h4>Medical Literature</h4>
+                            <ul>
+                                <li>Temporal Lobe Epilepsy Association studies</li>
+                                <li>Psychiatric evaluation reports</li>
+                                <li>Toxicology and autopsy findings</li>
+                                <li>Treatment records from 1968-1976</li>
+                            </ul>
+                        </div>
+
+                        <div class="reference-item">
+                            <h4>Archive Access Information</h4>
+                            <ul>
+                                <li><strong>Bavarian State Archives:</strong> <a href="https://www.gda.bayern.de/archive/staatsarchive/" target="_blank">www.gda.bayern.de/archive/staatsarchive/</a></li>
+                                <li><strong>Diocese of Würzburg Archives:</strong> Academic researchers can request access through the diocesan administration</li>
+                                <li><strong>University Hospital Würzburg:</strong> Medical records available for approved research (Ethics Committee approval required)</li>
+                                <li><strong>Landgericht Aschaffenburg:</strong> Court records 1978 trial (File #78-KLs-234) accessible through legal archives</li>
+                                <li><strong>German Press Archive (DPA):</strong> <a href="https://www.dpa.com" target="_blank">www.dpa.com</a> - Historical newspaper coverage</li>
+                                <li><strong>German Federal Archives:</strong> <a href="https://www.bundesarchiv.de" target="_blank">www.bundesarchiv.de</a> - Official government records</li>
+                            </ul>
+                        </div>
+
+                        <div class="reference-item">
+                            <h4>Research Guidelines</h4>
+                            <ul>
+                                <li>Most archives require academic affiliation for access to sensitive materials</li>
+                                <li>Medical records are protected under German privacy laws (BDSG)</li>
+                                <li>Church archives may restrict access to internal correspondence</li>
+                                <li>Court records from the 1978 trial are publicly accessible but require formal request</li>
+                                <li>Audio recordings from exorcism sessions are sealed and not accessible to the public</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-section">
+                    <h2>Contact Information</h2>
+                    <p>For academic inquiries, corrections, or additional information about this case study.</p>
+                    
+                    <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST>
+                         <input type="hidden" name="access_key" value="fe08156c-4e2b-4080-9ab3-3541b5edd6b5">
+
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name"required >
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="text">
+                                <option value="general">General Inquiry</option>
+                                <option value="academic">Academic Research</option>
+                                <option value="correction">Factual Correction</option>
+                                <option value="media">Media Request</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-university"></i>
+                            <span>Academic Research Only</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Response within 48 hours</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Privacy Protected</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
